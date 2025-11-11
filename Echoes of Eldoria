@@ -1,0 +1,67 @@
+Project Title: Echoes of Eldoria: A Text-Based Adventure
+● Project Summary: Develop an interactive, story-driven adventure game where player
+choices significantly impact the narrative and outcome. The game will primarily be textbased with static background images to enhance immersion, focusing on branching
+storylines and character development.
+● Description: Echoes of Eldoria will immerse players in a rich fantasy world through
+descriptive text and occasional static visuals. Players will make decisions that influence
+the plot, character relationships, and ultimately, the ending. The project emphasizes
+narrative design, choice-based mechanics, and basic inventory management.
+● Problem Statement: Many games prioritize graphics over narrative depth, leading to
+less engaging storytelling experiences. There's a demand for games that offer rich,
+branching narratives where player agency truly matters, providing a unique and
+replayable experience.
+● Proposed Solution: Create a text-based adventure game with a robust branching
+narrative system. The game will use a simple interface to present choices and display
+outcomes, allowing players to explore different story paths and experience varied
+endings.
+● Project Objectives:
+○ To design a compelling story with multiple branching paths and endings.
+○ To implement a choice-based narrative system.
+○ To develop a basic inventory and character stat management system.
+○ To integrate static background images to enhance atmosphere.
+○ To ensure all narrative paths are logically consistent and bug-free.
+● Scope of the Project: Development of a single-player text-based adventure game with
+at least three major branching points and two distinct endings. Includes basic inventory,
+character stats (e.g., health, reputation), and a save/load system.
+● Out-of-Scope: Complex combat system, real-time graphics, voice acting, dynamic
+character models, or online multiplayer.
+● System Architecture:
+○ Frontend: Web-based (HTML/CSS/JavaScript) or a simple desktop application
+(e.g., Python with Tkinter/PyQt) for displaying text and images, and handling user
+input.
+○ Story Data: Stored in JSON, XML, or a simple text file for easy modification and
+expansion.
+● Modules:
+○ Narrative Engine: Manages story progression, displays text, and presents
+choices.
+○ Choice Handler: Processes player decisions and updates game state.
+○ Inventory System: Manages items collected by the player.
+○ Character Stat System: Tracks and updates player attributes.
+○ Save/Load System: Allows players to save and resume their game.
+○ UI/Display Module: Renders text, images, and interactive elements.
+● Functional Requirements:
+○ The game must present narrative text and player choices.
+○ Player choices must influence the story progression.
+○ The game must have a functional inventory system.
+○ Character stats must update based on in-game events.
+○ Players must be able to save and load their game progress.
+● Non-Functional Requirements:
+○ Usability: Easy to read text and clear choice presentation.
+○ Reliability: No broken narrative paths or crashes.
+○ Maintainability: Story content should be easily editable and expandable.
+○ Performance: Fast loading of text and images.
+● Testing Plan:
+○ Path Testing: Test all possible narrative branches and endings.
+○ Choice Validation: Ensure choices lead to correct outcomes.
+○ Save/Load Testing: Verify game state is correctly saved and loaded.
+○ Text Review: Proofread all in-game text for grammatical errors and consistency.
+● Project Deliverables:
+○ Playable game application.
+○ Source code.
+○ Project report.
+○ Game design document (including narrative flowcharts).
+● Skills Tested: Narrative Design, Programming (Python, JavaScript), UI/UX Design,
+Logic and Flow Control, Data Structures (for story management), Testing.
+● Future Enhancements: More complex puzzles, dynamic character interactions, sound
+effects, music, more detailed graphics, integration with AI for dynamic narrative
+generation.
